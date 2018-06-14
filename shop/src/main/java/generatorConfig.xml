@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="context1">
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/shop" driverClass="com.mysql.jdbc.Driver" password="123456" userId="root" />
+    <javaModelGenerator targetPackage="enity" targetProject="shop" />
+    <sqlMapGenerator targetPackage="mapper" targetProject="shop" />
+    <javaClientGenerator targetPackage="mapper" targetProject="shop" type="XMLMAPPER" />
+    <table schema="shop" tableName="category">
+    </table>
+  </context>
+</generatorConfiguration>
+<!-- 连接sql -->
